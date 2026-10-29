@@ -19,3 +19,5 @@ Only immutable signed app images are stored in firmware/. C6 Guard 0.2.0+ can ch
 The initial online-capable bootstrap is 0.2.0; 0.2.1 is the first feed release for the end-to-end update check. Old digest-named app files stay immutable.
 
 Firmware 0.2.3 fixes the Safari update confirmation flow and displays the running version explicitly. Online update confirmation is rendered in the page, without relying on browser-native dialogs.
+
+Firmware 0.2.4 adds filter installation progress/confirmation and shows the existing 16-list capacity; paused lists count toward the limit.
