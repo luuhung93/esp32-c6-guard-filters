@@ -1,46 +1,46 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-29T01:22:34.852909+00:00",
+  "publishedAt": "2026-10-29T03:56:08.154037+00:00",
   "filters": [
     {
       "id": "guard-starter",
-      "ruleCount": 3,
+      "ruleCount": 6540,
       "hashBits": 64,
       "formatVersion": 1,
-      "binaryBytes": 168,
-      "sha256": "a72d10ab1d81c15f6484cff9d8156eab8b776c5297a9b96716952ad060c3e26e",
-      "sourceInputSHA256": "bd6fd7e0aa670bbedee24b925695c0401cd25a8054ab758a7e7b34defe6a437d",
-      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/guard-starter-bd6fd7e0aa670bbedee24b925695c0401cd25a8054ab758a7e7b34defe6a437d.txt",
-      "name": "Guard Starter",
+      "binaryBytes": 52464,
+      "sha256": "2fb430402a1878741a3a13f5136f9851eaff74d0d82839806776500ef1ae965e",
+      "sourceInputSHA256": "8c925c37a5eaa5e1c582c76e12301797861addee5ad0fa0e6e46c9dd0136fe55",
+      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/guard-starter-8c925c37a5eaa5e1c582c76e12301797861addee5ad0fa0e6e46c9dd0136fe55.txt",
+      "name": "AdAway \u00b7 M\u1eb7c \u0111\u1ecbnh g\u1ecdn",
       "region": "Global",
       "category": "ads",
-      "sourceURL": "https://github.com/luuhung93/esp32-c6-guard",
-      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/guard-starter-a72d10ab1d81c15f6484cff9d8156eab8b776c5297a9b96716952ad060c3e26e.bin",
+      "sourceURL": "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt",
+      "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/guard-starter-2fb430402a1878741a3a13f5136f9851eaff74d0d82839806776500ef1ae965e.bin",
       "excluded": {},
-      "updatedAt": "2026-10-29T01:22:32.446556+00:00"
+      "updatedAt": "2026-10-29T03:56:04.402208+00:00"
     },
     {
       "id": "adguard-dns",
-      "ruleCount": 184045,
+      "ruleCount": 184071,
       "hashBits": 64,
       "formatVersion": 1,
-      "binaryBytes": 1472504,
-      "sha256": "ca10b689c5b4621c890fa0a56b68dbdc9d8e516be1d4c9129ef3872fc452c3a5",
-      "sourceInputSHA256": "b6ba44e83c6118599ddd160be1a9a7cda89d68e2754a00d5ad5d61f54e8f13f5",
-      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/adguard-dns-b6ba44e83c6118599ddd160be1a9a7cda89d68e2754a00d5ad5d61f54e8f13f5.txt",
+      "binaryBytes": 1472712,
+      "sha256": "39151a8d6d487c2b697a667401f47350523d43a22a5d7a101d27a4c68b935536",
+      "sourceInputSHA256": "a7bf65a81ab11645b8bdb5c967f7c2d6971262addb169110fa892bfc0c151846",
+      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/adguard-dns-a7bf65a81ab11645b8bdb5c967f7c2d6971262addb169110fa892bfc0c151846.txt",
       "name": "AdGuard DNS filter",
       "region": "Global",
       "category": "ads",
       "sourceURL": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
       "licenseURL": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/LICENSE",
-      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/adguard-dns-ca10b689c5b4621c890fa0a56b68dbdc9d8e516be1d4c9129ef3872fc452c3a5.bin",
+      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/adguard-dns-39151a8d6d487c2b697a667401f47350523d43a22a5d7a101d27a4c68b935536.bin",
       "excluded": {
         "invalid": 241,
         "unsupported": 451,
         "exception": 212
       },
-      "updatedAt": "2026-10-29T01:22:34.384788+00:00"
+      "updatedAt": "2026-10-29T03:56:06.289975+00:00"
     },
     {
       "id": "hostsvn",
@@ -59,6 +59,24 @@
       "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/hostsvn-0d86d42693244eba63c9303de0476e336d18fac8cc3def0d8fc3d99bf3282b80.bin",
       "excluded": {},
       "updatedAt": "2026-10-29T01:22:34.851268+00:00"
+    },
+    {
+      "id": "hagezi-light",
+      "ruleCount": 73287,
+      "hashBits": 64,
+      "formatVersion": 1,
+      "binaryBytes": 586440,
+      "sha256": "d1bba9b2118d40842006431f52a78d4c6f1c5bb58bbc3ad971dd63c0ccf78573",
+      "sourceInputSHA256": "23e4149eefc20925eae9d49eafdd83e4be3c44aa8bb4a8b676c124a25d022f77",
+      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/hagezi-light-23e4149eefc20925eae9d49eafdd83e4be3c44aa8bb4a8b676c124a25d022f77.txt",
+      "name": "HaGeZi Light",
+      "region": "Global",
+      "category": "ads",
+      "sourceURL": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt",
+      "licenseURL": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/LICENSE",
+      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/hagezi-light-d1bba9b2118d40842006431f52a78d4c6f1c5bb58bbc3ad971dd63c0ccf78573.bin",
+      "excluded": {},
+      "updatedAt": "2026-10-29T03:56:08.148086+00:00"
     }
   ],
   "sourceErrors": []
