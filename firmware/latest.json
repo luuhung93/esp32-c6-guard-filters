@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "chip": "esp32c6",
+  "version": "0.2.1",
+  "build": "360602d614cb6a7a98eacc0cfe4f92a69281f87c9f84b5b82c036a9613d5acca",
+  "sha256": "fb834edab695b85bd74192b388d18a31f02545671e5cdb5529499d166dede956",
+  "bytes": 1249280,
+  "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/firmware/esp32-c6-guard-fb834edab695b85bd74192b388d18a31f02545671e5cdb5529499d166dede956.bin"
+}
