@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "chip": "esp32c6",
-  "version": "0.2.16",
-  "build": "46fa21e235173e19307cba22956317d09bdf02883d1d6f346202e8fb459cba3a",
-  "sha256": "61428965a3704619ced5f726a15fa8d82c817d12c40e290187c81bde97420e75",
+  "version": "0.2.17",
+  "build": "a8b684d166bb10cb32fd8532085d2ee17daf4e6fc9a0db7fb808e985f0cac5fb",
+  "sha256": "cbb233e5f664e2d112a6082ff3f3d66e8c5b27207804bb4f80444f314861947e",
   "bytes": 1314816,
-  "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/firmware/esp32-c6-guard-61428965a3704619ced5f726a15fa8d82c817d12c40e290187c81bde97420e75.bin"
+  "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/firmware/esp32-c6-guard-cbb233e5f664e2d112a6082ff3f3d66e8c5b27207804bb4f80444f314861947e.bin"
 }
