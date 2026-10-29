@@ -21,3 +21,5 @@ The initial online-capable bootstrap is 0.2.0; 0.2.1 is the first feed release f
 Firmware 0.2.3 fixes the Safari update confirmation flow and displays the running version explicitly. Online update confirmation is rendered in the page, without relying on browser-native dialogs.
 
 Firmware 0.2.4 adds filter installation progress/confirmation and shows the existing 16-list capacity; paused lists count toward the limit.
+
+Firmware0.2.5 enables native FATFS read-only fast seek for immutable hash tables. This is a performance candidate; matched device retesting is required before claiming improvement. Filter formats and policy order remain unchanged.
