@@ -1,3 +1,11 @@
+Vietnam · hostsVN
+Original source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+License: https://raw.githubusercontent.com/bigdargon/hostsVN/master/LICENSE
+Terms: MIT
+Discovery: https://adblocklists.com/
+Changes: DNS names normalized/deduplicated and encoded as sorted 64-bit SHA-256 prefixes.
+No endorsement by the original maintainer is implied.
+
 MIT License
 
 Copyright (c) 2026 BigDargon

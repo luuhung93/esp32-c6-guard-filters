@@ -1,0 +1,16 @@
+North Macedonia · Macedonian Pi-hole
+Original source: https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
+License: https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt
+Terms: Upstream-redistribution-permission
+Discovery: https://adblocklists.com/
+Changes: DNS names normalized/deduplicated and encoded as sorted 64-bit SHA-256 prefixes.
+No endorsement by the original maintainer is implied.
+
+#  Last Update: Apr 20, 2025 13:49 CET 
+#  
+#  Blacklist compiled by @cchevymk
+#  
+#  You may freely use, copy, and redistribute this blacklist in any manner you like.
+#
+# 
+10bet.com
