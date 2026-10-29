@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-29T01:22:34.852909+00:00",
+  "filters": [
+    {
+      "id": "guard-starter",
+      "ruleCount": 3,
+      "hashBits": 64,
+      "formatVersion": 1,
+      "binaryBytes": 168,
+      "sha256": "a72d10ab1d81c15f6484cff9d8156eab8b776c5297a9b96716952ad060c3e26e",
+      "sourceInputSHA256": "bd6fd7e0aa670bbedee24b925695c0401cd25a8054ab758a7e7b34defe6a437d",
+      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/guard-starter-bd6fd7e0aa670bbedee24b925695c0401cd25a8054ab758a7e7b34defe6a437d.txt",
+      "name": "Guard Starter",
+      "region": "Global",
+      "category": "ads",
+      "sourceURL": "https://github.com/luuhung93/esp32-c6-guard",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/guard-starter-a72d10ab1d81c15f6484cff9d8156eab8b776c5297a9b96716952ad060c3e26e.bin",
+      "excluded": {},
+      "updatedAt": "2026-10-29T01:22:32.446556+00:00"
+    },
+    {
+      "id": "adguard-dns",
+      "ruleCount": 184045,
+      "hashBits": 64,
+      "formatVersion": 1,
+      "binaryBytes": 1472504,
+      "sha256": "ca10b689c5b4621c890fa0a56b68dbdc9d8e516be1d4c9129ef3872fc452c3a5",
+      "sourceInputSHA256": "b6ba44e83c6118599ddd160be1a9a7cda89d68e2754a00d5ad5d61f54e8f13f5",
+      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/adguard-dns-b6ba44e83c6118599ddd160be1a9a7cda89d68e2754a00d5ad5d61f54e8f13f5.txt",
+      "name": "AdGuard DNS filter",
+      "region": "Global",
+      "category": "ads",
+      "sourceURL": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
+      "licenseURL": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/LICENSE",
+      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/adguard-dns-ca10b689c5b4621c890fa0a56b68dbdc9d8e516be1d4c9129ef3872fc452c3a5.bin",
+      "excluded": {
+        "invalid": 241,
+        "unsupported": 451,
+        "exception": 212
+      },
+      "updatedAt": "2026-10-29T01:22:34.384788+00:00"
+    },
+    {
+      "id": "hostsvn",
+      "ruleCount": 18537,
+      "hashBits": 64,
+      "formatVersion": 1,
+      "binaryBytes": 148440,
+      "sha256": "0d86d42693244eba63c9303de0476e336d18fac8cc3def0d8fc3d99bf3282b80",
+      "sourceInputSHA256": "e0eb389253e0a858c5f91ace3d84d79faa72bfeb881140026375d208745dc3cb",
+      "canonicalSourceURL": "https://luuhung93.github.io/esp32-c6-guard-filters/sources/hostsvn-e0eb389253e0a858c5f91ace3d84d79faa72bfeb881140026375d208745dc3cb.txt",
+      "name": "hostsVN",
+      "region": "VN",
+      "category": "ads",
+      "sourceURL": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
+      "licenseURL": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/LICENSE",
+      "binaryURL": "https://luuhung93.github.io/esp32-c6-guard-filters/filters/hostsvn-0d86d42693244eba63c9303de0476e336d18fac8cc3def0d8fc3d99bf3282b80.bin",
+      "excluded": {},
+      "updatedAt": "2026-10-29T01:22:34.851268+00:00"
+    }
+  ],
+  "sourceErrors": []
+}

@@ -1,0 +1,5 @@
+# Small project-maintained DNS starter list (CC0-1.0).
+# These domain names are factual identifiers, not copied third-party rules.
+doubleclick.net
+googleadservices.com
+pagead2.googlesyndication.com
