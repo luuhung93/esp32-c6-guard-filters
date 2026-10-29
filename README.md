@@ -17,3 +17,5 @@ Latest release metadata: https://luuhung93.github.io/esp32-c6-guard-filters/firm
 Only immutable signed app images are stored in firmware/. C6 Guard 0.2.0+ can check this feed and download an update over Wi-Fi from Settings → Firmware OTA. Each device verifies byte count, SHA-256, native chip/RSA signature, and expected application build before activation. File upload OTA remains available. Never use an app image as a full factory flash set. Keep power on during updates.
 
 The initial online-capable bootstrap is 0.2.0; 0.2.1 is the first feed release for the end-to-end update check. Old digest-named app files stay immutable.
+
+Firmware 0.2.3 fixes the Safari update confirmation flow and displays the running version explicitly. Online update confirmation is rendered in the page, without relying on browser-native dialogs.
