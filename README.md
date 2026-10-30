@@ -18,7 +18,7 @@ Latest metadata: https://luuhung93.github.io/esp32-c6-guard-filters/firmware/lat
 
 From Settings → Firmware OTA, check for updates and install over Wi-Fi. The ESP validates byte count, SHA-256, native chip/RSA signature and expected application build before activation. Manual app-only upload remains available. Keep power connected during updates; an app image is not a first-install factory flash set.
 
-Version **0.2.19 Community Beta** reduces DNS per-query heap allocations, handles filter/job/OTA JSON allocation failures explicitly, rejects malformed mutation JSON, bounds filter downloads and validates persisted My Rules records. No persistent schema or filter-cap change is included. It uses the retained official signing identity so existing official devices can upgrade.
+Version **0.2.20 Community Beta** adds an English / Vietnamese selector for setup, login and management. It preserves typed forms and user data while switching language, and retains the core hardening from 0.2.19. No persistent schema or filter-cap change is included. It uses the retained official signing identity so existing official devices can upgrade. Ready-to-install Setup and clean editable Source packages are available in the community releases.
 
 This is a test release for real LAN/load testing. Long-term multi-device stability, power-loss recovery and the full OTA rollback matrix remain pending. Source, installation instructions, notices and factory packages are in the [community repository releases](https://github.com/luuhung93/esp32-c6-guard-community/releases).
 
