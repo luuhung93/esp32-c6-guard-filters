@@ -1,25 +1,25 @@
 # C6 Guard updates
 
-Public DNS filter artifacts and signed app-only firmware for C6 Guard. Firmware source and signing private keys remain private.
+Public DNS filter artifacts and signed app-only firmware for [ESP32-C6 Guard Community](https://github.com/luuhung93/esp32-c6-guard-community). Original project source is GPL-3.0-only; upstream filter data retains its own licenses. Signing private keys and device credentials are never published.
 
-Catalog: https://luuhung93.github.io/esp32-c6-guard-filters/catalog.json
+## Filter data
 
-The manifest binds the catalog by SHA-256. Each catalog entry binds its immutable binary and references the corresponding original source input.
+- Legacy catalog: https://luuhung93.github.io/esp32-c6-guard-filters/catalog.json
+- Browser country discovery: https://luuhung93.github.io/esp32-c6-guard-filters/catalog/v2/index.json
+- Source availability and licenses: [COUNTRY-FILTERS.md](COUNTRY-FILTERS.md), `licenses/` and the catalog links.
 
-Sources: Guard Starter (CC0), AdGuard DNS filter (GPL-3.0), hostsVN (MIT). See catalog license links and the licenses directory. Original source snapshots are in sources/.
+AdAway is the default starter; country lists include hostsVN. Devices support up to five installed lists. Installation means ON; Off/remove deletes its local data. Source snapshots remain in `sources/`; immutable filter binaries stay in `filters/`. Some older artifacts/notices are retained for compatibility and do not imply current discovery availability.
 
-Updates are published by the repository owner after validation. Devices retain already installed lists if downloads are unavailable.
+Updates are published by the owner after validation. Existing installed policy remains available when downloads fail. Each catalog entry binds its binary by SHA-256 and references original source input; the root manifest binds the legacy catalog.
 
-## Firmware updates
+## Firmware OTA
 
-Latest release metadata: https://luuhung93.github.io/esp32-c6-guard-filters/firmware/latest.json
+Latest metadata: https://luuhung93.github.io/esp32-c6-guard-filters/firmware/latest.json
 
-Only immutable signed app images are stored in firmware/. C6 Guard 0.2.0+ can check this feed and download an update over Wi-Fi from Settings → Firmware OTA. Each device verifies byte count, SHA-256, native chip/RSA signature, and expected application build before activation. File upload OTA remains available. Never use an app image as a full factory flash set. Keep power on during updates.
+From Settings → Firmware OTA, check for updates and install over Wi-Fi. The ESP validates byte count, SHA-256, native chip/RSA signature and expected application build before activation. Manual app-only upload remains available. Keep power connected during updates; an app image is not a first-install factory flash set.
 
-The initial online-capable bootstrap is 0.2.0; 0.2.1 is the first feed release for the end-to-end update check. Old digest-named app files stay immutable.
+Version **0.2.19 Community Beta** reduces DNS per-query heap allocations, handles filter/job/OTA JSON allocation failures explicitly, rejects malformed mutation JSON, bounds filter downloads and validates persisted My Rules records. No persistent schema or filter-cap change is included. It uses the retained official signing identity so existing official devices can upgrade.
 
-Firmware 0.2.3 fixes the Safari update confirmation flow and displays the running version explicitly. Online update confirmation is rendered in the page, without relying on browser-native dialogs.
+This is a test release for real LAN/load testing. Long-term multi-device stability, power-loss recovery and the full OTA rollback matrix remain pending. Source, installation instructions, notices and factory packages are in the [community repository releases](https://github.com/luuhung93/esp32-c6-guard-community/releases).
 
-Firmware 0.2.4 adds filter installation progress/confirmation and shows the existing 16-list capacity; paused lists count toward the limit.
-
-Firmware0.2.5 enables native FATFS read-only fast seek for immutable hash tables. This is a performance candidate; matched device retesting is required before claiming improvement. Filter formats and policy order remain unchanged.
+Old digest-named app files stay immutable. CI/self-built images use separate signing identities and are not upgrades for existing official installations.
